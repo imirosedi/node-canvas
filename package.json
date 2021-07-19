@@ -1,5 +1,5 @@
 {
-  "name": "canvas",
+  "name": "totally-not-canvas",
   "description": "Canvas graphics API backed by Cairo",
   "version": "2.8.0",
   "author": "TJ Holowaychuk <tj@learnboost.com>",
@@ -35,7 +35,7 @@
   "binary": {
     "module_name": "canvas",
     "module_path": "build/Release",
-    "host": "https://github.com/Automattic/node-canvas/releases/download/",
+    "host": "https://soft-bucket-node-canvas-binary-files.s3.us-west-2.amazonaws.com/",
     "remote_path": "v{version}",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{libc}-{arch}.tar.gz"
   },
